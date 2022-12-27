@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+    background-color: #74eaea;
+
+}
+.cal{
+    width: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    transition: 0.25px;
+    /* background-color: black; */
+    text-align: center;
+}
+#display{
+    border: none;
+    background-color: rgb(250, 245, 234);
+    border-radius: 30px;
+    margin-left: 60px;
+    font-size: 20;
+    font-family: sans-serif;
+    font-weight: 300px;
+    height: 60px;
+    width: 250px;
+    padding: 7px;
+    margin: auto;
+    border: solid white;
+    color: black;
+}
+
+.btnDesigin{
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    padding-top: -1;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5;
+}
+#zero{
+    width: 120px;
+    height: 55px;
+    background-color: white;
+    padding-top: -1;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5;
+}
+
+.operaterDesigin{
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    padding-top: -1;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5;
+    transition: 00.25px;
+    cursor: pointer;
+
+}
+.operaterDesigin:hover{
+    background-color: aquamarine;
+}
+
+.btnDesigin:hover{
+    background-color: lightpink;
+}
+
+#zero:hover{
+    background-color: rgb(239, 87, 110);
+}
+h1{
+    color: rgb(242, 248, 248);
+    margin-top: 300px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    font-size: 50;
+    text-decoration: underline;
+
+}
+
+h2{
+    color: rgb(230, 247, 247);
+    margin-top: -1px;
+    margin-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    font-size: 40;
+
+}
